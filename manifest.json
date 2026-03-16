@@ -1,11 +1,11 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "toggle-case-selection",
+	"name": "Toggle Case Selection",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
+	"description": "切换选中文本大小写（全小写转大写，否则转小写）",
+	"author": "nicangtianws",
+	"authorUrl": "https://github.com/nicangtianws",
 	"fundingUrl": "https://obsidian.md/pricing",
 	"isDesktopOnly": false
 }
