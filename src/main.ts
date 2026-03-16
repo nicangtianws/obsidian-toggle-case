@@ -31,7 +31,7 @@ export default class ToggleCasePlugin extends Plugin {
 	}
 
 	async loadSettings() {
-		this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData() as Partial<MyPluginSettings>);
+		this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData() as Partial<ToggleCasePluginSettings>);
 	}
 
 	async saveSettings() {
