@@ -9,7 +9,7 @@ export const DEFAULT_SETTINGS: ToggleCasePluginSettings = {
 	mySetting: 'default'
 }
 
-export class SampleSettingTab extends PluginSettingTab {
+export class ToggleCasePluginSettingTab extends PluginSettingTab {
 	plugin: ToggleCasePlugin;
 
 	constructor(app: App, plugin: ToggleCasePlugin) {
