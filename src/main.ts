@@ -1,5 +1,5 @@
-import {App, Editor, MarkdownView, Modal, Notice, Plugin} from 'obsidian';
-import {DEFAULT_SETTINGS, MyPluginSettings, SampleSettingTab} from "./settings";
+import {App, Editor, Modal, Plugin} from 'obsidian';
+import {DEFAULT_SETTINGS, MyPluginSettings} from "./settings";
 
 // Remember to rename these classes and interfaces!
 
