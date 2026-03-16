@@ -1,4 +1,4 @@
-import {App, Editor, Modal, Plugin} from 'obsidian';
+import {Editor, Plugin} from 'obsidian';
 import {DEFAULT_SETTINGS, ToggleCasePluginSettings} from "./settings";
 
 export default class ToggleCasePlugin extends Plugin {
