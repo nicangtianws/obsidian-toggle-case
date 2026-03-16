@@ -1,18 +1,15 @@
 import {App, Editor, Modal, Plugin} from 'obsidian';
-import {DEFAULT_SETTINGS, MyPluginSettings} from "./settings";
+import {DEFAULT_SETTINGS, ToggleCasePluginSettings} from "./settings";
 
-// Remember to rename these classes and interfaces!
-
-export default class MyPlugin extends Plugin {
-	settings: MyPluginSettings;
+export default class ToggleCasePlugin extends Plugin {
+	settings: ToggleCasePluginSettings;
 
 	async onload() {
 		await this.loadSettings();
-		// This adds a complex command that can check whether the current state of the app allows execution of the command
     this.addCommand({
-      id: "toggle-case-selection",
+      id: "toggle-it-case",
       name: "切换选中文本大小写（全小写转大写，否则转小写）",
-      hotkeys: [{ modifiers: ["Ctrl", "Shift"], key: "U" }],
+      // hotkeys: [{ modifiers: ["Ctrl", "Shift"], key: "U" }],
       editorCallback: (editor: Editor) => {
         const selectedText = editor.getSelection();
 
